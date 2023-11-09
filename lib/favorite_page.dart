@@ -51,19 +51,19 @@ class _FavoritePageState extends State<FavoritePage> {
               Radio(
                 value: 0,
                 groupValue: _radioGroupValue,
-                onChanged: (index) => _radioOnChanged(index ),
+                onChanged: (index) => _radioOnChanged(index!),
               ),
               Text('Teh'),
               Radio(
                 value: 1,
                 groupValue: _radioGroupValue,
-                onChanged: (index) => _radioOnChanged(index),
+                onChanged: (index) => _radioOnChanged(index!),
               ),
               Text('Kopi'),
               Radio(
                 value: 2,
                 groupValue: _radioGroupValue,
-                onChanged: (index) => _radioOnChanged(index),
+                onChanged: (index) => _radioOnChanged(index!),
               ),
               Text('Susu'),
             ],
